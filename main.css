@@ -130,7 +130,7 @@ sidemenu{
 }
 
 .thumbnail {
-    width: 100px;
+    float: left;
     height: 90px;
 }
 
@@ -138,3 +138,8 @@ ul {
     list-style: none;
 }
 
+li {
+    float: left;
+    width: 90%;
+    height: 100px;
+}
