@@ -14,14 +14,10 @@ body {
 header {
     background-color: #ffffff;
     margin-bottom: 40px;
-    height: 50px;
+
     padding: 8px;
-<<<<<<< HEAD
-    display: flex;
-=======
     align-items: center;
     vertical-align: bottom;
->>>>>>> 9170980e98fb7f6c80b9356932a6da1dd5fc9ae8
 }
 
 main {
@@ -30,6 +26,10 @@ main {
 }
 
 #menulogo{
+
+}
+
+#searchbar{
     margin-bottom: 7px;
 }
 
@@ -48,21 +48,17 @@ main {
     font-family: inherit;
 }
 
-aside{
-      width: inherit;
-      float: left;
-      display: block;
-      margin: 50px;
-      left: 0;
-      top: 0;
-      border-bottom: 1px solid;
-
-}
 
 .yvideo{
     float: left;
     width: 65%;
     clear: both;
+}
+
+#out, #sub, #co{
+  float: left;
+  width: 65%;
+  clear: both;
 }
 
 .sidemenu {
