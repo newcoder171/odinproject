@@ -1,17 +1,25 @@
-html {
+html {margin: 0;
+      padding: 0;
 
 }
 
-body {
-    padding: 10px 20px;
+body {font-family: helvetica;
+      font-size: 15pt;
+      background-color: #ffffff
+      padding: 10px 20px;
 }
 
 header {
     background-color: #ffffff;
     margin-bottom: 40px;
+    height: 36px;
+    padding: 8px;
+    display: flex;
+    align: content;
 }
 
 main {
+    vertical-align: top;
     padding: 0 100px;
 }
 
@@ -28,4 +36,26 @@ main {
     font-weight: 400;
     line-height: 16px;
     font-family: inherit;
+}
+
+aside{
+      width: inherit;
+      float: left;
+      display: block;
+      margin: 50px;
+      left: 0;
+      top: 0;
+      border-bottom: 1px solid;
+
+}
+
+.yvideo{
+        float: left;
+
+}
+sidemenu{
+        float: right;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
 }
