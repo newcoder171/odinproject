@@ -15,7 +15,6 @@ header {
     height: 36px;
     padding: 8px;
     display: flex;
-    align: content;
 }
 
 main {
@@ -58,4 +57,44 @@ sidemenu{
         display: block;
         padding-bottom: 5px;
         margin-bottom: 10px;
+}
+
+#out{
+position:absolute;
+height:20px;
+width:30px;
+background-color:red;
+top:10%;
+left:10%;
+border-radius:5px;
+}
+#play{
+position:relative;
+height:0px;
+width:0px;
+border-left:solid 10px #fff;
+border-top:solid 7px transparent;
+border-right:solid 7px transparent;
+border-bottom:solid 7px transparent;
+top:15%;
+left:38%;
+}
+#sub{
+position:absolute;
+background-color:transparent;
+color:#f00;
+border:solid 1px transparent;
+font-size:20px;
+left:18%;
+top:9.2%;
+}
+#sub:focus{
+outline:none;
+}
+#co{
+position:absolute;
+color:#fff;
+font-size:15px;
+top:15.1%;
+left:10%;
 }
