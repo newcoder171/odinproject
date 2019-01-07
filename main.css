@@ -16,12 +16,8 @@ header {
     margin-bottom: 40px;
     height: 50px;
     padding: 8px;
-<<<<<<< HEAD
-    display: flex;
-=======
     align-items: center;
     vertical-align: bottom;
->>>>>>> 9170980e98fb7f6c80b9356932a6da1dd5fc9ae8
 }
 
 main {
