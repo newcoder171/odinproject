@@ -1,21 +1,23 @@
-html {margin: 0;
-      padding: 0;
+html {
+    margin: 0;
+    padding: 0;
 
 }
 
-body {font-family: helvetica;
-      font-size: 15pt;
-      background-color: #ffffff
-      padding: 10px 20px;
+body {
+    font-family: helvetica;
+    font-size: 15pt;
+    background-color: #ffffff;
+    padding: 10px 20px;
 }
 
 header {
     background-color: #ffffff;
     margin-bottom: 40px;
-    height: 36px;
+    height: 50px;
     padding: 8px;
-    display: flex;
-    align: content;
+    align-items: center;
+    vertical-align: bottom;
 }
 
 main {
@@ -23,13 +25,17 @@ main {
     padding: 0 100px;
 }
 
-.icon {
-    float: right;
+#menulogo{
+    margin-bottom: 7px;
 }
+
+/* .icon {
+    float: right;
+    right: 0;
+} */
 
 .photo {
     border-radius: 50%;
-    float: right;
 }
 
 .vtitle {
@@ -50,9 +56,34 @@ aside{
 }
 
 .yvideo{
-        float: left;
-
+    float: left;
+    width: 65%;
+    clear: both;
 }
+
+.sidemenu {
+    width: 35%;
+    display: block;
+    float: right;
+    margin-top: -20px;
+}
+
+.header>#sideicons {
+    float: right;
+    right: 0;
+}
+
+div#searchbar {
+    display: inline;
+}
+
+input {
+    height: 30px;
+    width: 350px;
+}
+
+
+
 sidemenu{
         float: right;
         display: block;
