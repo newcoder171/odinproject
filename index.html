@@ -14,23 +14,25 @@
 
     <header class="header">
         <div class="nav-container">
-          <div class="opt-menu">
-            <img src="./images/baseline_menu_black_18dp.png" alt="" id="menulogo" style="float: left;">
-          </div>
-          <div class="site-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" href="#" alt="logo"
-                width="120px" class="logo">
-          </div>
-          <input type="search" name="Search" id="search" width="200px" placeholder="Search">
-          <div class="nav-right">
-            <img src="./images/baseline_apps_black_18dp.png" alt="" class="icon" >
-            <img src="./images/baseline_video_call_black_18dp.png" alt="" class="icon" >
-            <img src="./images/baseline_notifications_black_18dp.png" alt="" class="icon">
-            <img src="./images//photo.jpg" alt="" class="photo" width="40px" height="40px">
+            <div class="opt-menu">
+                <img src="./images/baseline_menu_black_18dp.png" alt="" id="menulogo" style="float: left;">
+            </div>
+            <div class="site-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" href="#" alt="logo"
+                    width="120px" class="logo">
+            </div>
+            <input type="search" name="Search" id="search" width="200px" placeholder="Search">
+            <button style="margin-top: -15px;"> <img src="./images/baseline_search_black_18dp.png" alt="search" height="35px"></button>
+
+            <div class="nav-right">
+                <img src="./images/baseline_apps_black_18dp.png" alt="" class="icon">
+                <img src="./images/baseline_video_call_black_18dp.png" alt="" class="icon">
+                <img src="./images/baseline_notifications_black_18dp.png" alt="" class="icon">
+                <img src="./images//photo.jpg" alt="" class="photo" width="40px" height="40px">
 
 
 
-          </div>
+            </div>
         </div>
 
 
@@ -41,11 +43,43 @@
             <iframe width="676" height="460" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"></iframe>
             <p class="vtitle">Contributing to Open Source Part I: The Easy Way</p>
             <p class="views">10,667 views</p>
+
+            <span id="out">
+                <div id="play"></div>
+            </span>
+
+            <div>
+                <img src="./images/baseline_reply_black_18dp.png" alt="reply">
+                <img src="./images/baseline_thumb_down_black_18dp.png" alt="dislike">
+                <img src="./images/baseline_thumb_up_black_18dp.png" alt="like">
+                <img src="./images/baseline_playlist_add_black_18dp.png" alt="add">
+            </div>
+            <hr>
+            <button id="sub">SUBSCRIBE</button>
+            <div id="co">607,123,982 subscribers</div>
+
+
+
+            <div>
+                <div>
+                    <p>Comments:</p>
+                    <textarea name="comments" id="comments" cols="80" rows="5"></textarea>
+                </div>
+
+                <div style="padding-bottom: 50px">
+                    <button class="cancel">Cancel</button> <button class="submit">Comment</button>
+                </div>
+
+            </div>
+
         </div>
-        <div class="sidemenu">
+        <div class="sidemenu right">
             <h3>Up next</h3>
             <ul>
                 <li><img src="./images/thumbnail.svg" alt="" class="thumbnail">The first</li>
+                <li>
+                    <hr>
+                </li>
                 <li><img src="./images/thumbnail.svg" alt="" class="thumbnail"> Thumbnail 2</li>
                 <li><img src="./images/thumbnail.svg" alt="" class="thumbnail"> Thumbnail 2</li>
                 <li><img src="./images/thumbnail.svg" alt="" class="thumbnail"> Thumbnail 2</li>
@@ -56,11 +90,6 @@
 
     </main>
 
-    <div id="out">
-        <div id="play"></div>
-    </div>
-    <button id="sub">SUBSCRIBE</button>
-    <div id="co">607,123,982 subscribers</div>
 
 
 

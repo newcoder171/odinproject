@@ -22,7 +22,7 @@ header {
 
 .header{
 overflow: hidden;
-background-color: #f1f1f1
+border-bottom: #f1f1f1 solid 4px;
 
 }
 
@@ -35,8 +35,6 @@ background-color: #f1f1f1
 
 .nav-right{
   float:right;
-
-
 }
 
 main {
@@ -52,15 +50,20 @@ main {
     margin-bottom: 7px;
 }
 
+#search {
+    margin-left: 350px;
+}
+
 /* .icon {
     float: right;
     right: 0;
 }
+*/
 
 .photo {
     border-radius: 50%;
 }
-*/
+
 .vtitle {
     font-weight: 400;
     line-height: 16px;
@@ -70,13 +73,10 @@ main {
 
 .yvideo{
     float: left;
-    width: 65%;
+    width: 55%;
     clear: both;
 }
 
-
-
-}
 
 .sidemenu {
     width: 35%;
@@ -95,55 +95,86 @@ div#searchbar {
 }
 
 input {
-    height: 30px;
-    width: 350px;
+    height: 35px;
+    width: 450px;
 }
 
 
 
 sidemenu{
-        float: right;
         display: block;
         padding-bottom: 5px;
         margin-bottom: 10px;
 }
 
-#out{
-position:absolute;
-height:20px;
-width:30px;
-background-color:red;
-top:10%;
-left:10%;
-border-radius:5px;
+#out {
+    height:20px;
+    width:30px;
+    background-color:red;
+    border-radius:5px;
 }
-#play{
-position:relative;
-height:0px;
-width:0px;
-border-left:solid 10px #fff;
-border-top:solid 7px transparent;
-border-right:solid 7px transparent;
-border-bottom:solid 7px transparent;
-top:15%;
-left:38%;
+
+#play {
+    position:relative;
+    height:0px;
+    width:0px;
+    border-left:solid 10px #fff;
+    border-top:solid 7px transparent;
+    border-right:solid 7px transparent;
+    border-bottom:solid 7px transparent;
+    top:15%;
+    left:38%;
 }
-#sub{
-position:absolute;
-background-color:transparent;
-color:#f00;
-border:solid 1px transparent;
-font-size:20px;
-left:18%;
-top:9.2%;
+
+#sub {
+    float: right;
+    background-color:red;
+    color:#fff;
+    outline: #000;
+    width: auto;
+    border:solid 1px transparent;
+    font-size:20px;
 }
-#sub:focus{
-outline:none;
+
+#sub:hover  {
+    outline:none;
 }
-#co{
-position:absolute;
-color:#fff;
-font-size:15px;
-top:15.1%;
-left:10%;
+
+#co {
+    color:#000;
+    font-size:15px;
+    display: inline;
+}
+
+.thumbnail {
+    float: left;
+    height: 90px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    width: 90%;
+    height: 100px;
+}
+
+.right {
+    float: right;
+}
+
+button {
+    height: 40px;
+    outline: none;
+    border: #fff 1px solid;
+}
+
+.submit {
+   background-color: rgb(0, 255, 157);
+}
+
+#searchbtn {
 }
