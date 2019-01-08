@@ -26,7 +26,23 @@ border-bottom: #f1f1f1 solid 4px;
 
 }
 
-.opt-menu, .site-logo{
+.nav-container{
+  height: 40px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.site-logo{
+  margin: 50px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50);
+  transform: translateY(-50);
+}
+
+.logo{height: 36px;}
+
+.opt-menu{
   float: left;
   color: black;
   text-align: center;
@@ -37,22 +53,24 @@ border-bottom: #f1f1f1 solid 4px;
   float:right;
 }
 
-main {
-    vertical-align: top;
-    padding: 0 100px;
+input {
+    height: 35px;
+    width: 450px;
 }
 
 #menulogo{
 
 }
 
-#searchbar{
-    margin-bottom: 7px;
-}
-
 #search {
     margin-left: 350px;
 }
+
+main {
+    vertical-align: top;
+    padding: 0 100px;
+}
+
 
 /* .icon {
     float: right;
@@ -85,21 +103,14 @@ main {
     margin-top: -20px;
 }
 
-.header>#sideicons {
+/*.header>#sideicons {
     float: right;
     right: 0;
-}
+}*/
 
 div#searchbar {
     display: inline;
 }
-
-input {
-    height: 35px;
-    width: 450px;
-}
-
-
 
 sidemenu{
         display: block;
