@@ -20,6 +20,25 @@ header {
     vertical-align: bottom;
 }
 
+.header{
+overflow: hidden;
+background-color: #f1f1f1
+
+}
+
+.opt-menu, .site-logo{
+  float: left;
+  color: black;
+  text-align: center;
+
+}
+
+.nav-right{
+  float:right;
+
+
+}
+
 main {
     vertical-align: top;
     padding: 0 100px;
@@ -36,12 +55,12 @@ main {
 /* .icon {
     float: right;
     right: 0;
-} */
+}
 
 .photo {
     border-radius: 50%;
 }
-
+*/
 .vtitle {
     font-weight: 400;
     line-height: 16px;
@@ -55,10 +74,8 @@ main {
     clear: both;
 }
 
-#out, #sub, #co{
-  float: left;
-  width: 65%;
-  clear: both;
+
+
 }
 
 .sidemenu {
@@ -91,55 +108,42 @@ sidemenu{
         margin-bottom: 10px;
 }
 
-#out {
-    height:20px;
-    width:30px;
-    background-color:red;
-    border-radius:5px;
+#out{
+position:absolute;
+height:20px;
+width:30px;
+background-color:red;
+top:10%;
+left:10%;
+border-radius:5px;
 }
-
-#play {
-    position:relative;
-    height:0px;
-    width:0px;
-    border-left:solid 10px #fff;
-    border-top:solid 7px transparent;
-    border-right:solid 7px transparent;
-    border-bottom:solid 7px transparent;
-    top:15%;
-    left:38%;
+#play{
+position:relative;
+height:0px;
+width:0px;
+border-left:solid 10px #fff;
+border-top:solid 7px transparent;
+border-right:solid 7px transparent;
+border-bottom:solid 7px transparent;
+top:15%;
+left:38%;
 }
-
-#sub {
-    background-color:red;
-    color:#fff;
-    outline: #000;
-    width: auto;
-    border:solid 1px transparent;
-    font-size:20px;
+#sub{
+position:absolute;
+background-color:transparent;
+color:#f00;
+border:solid 1px transparent;
+font-size:20px;
+left:18%;
+top:9.2%;
 }
-
-#sub:hover  {
-    outline:none;
+#sub:focus{
+outline:none;
 }
-
-#co {
-    color:#000;
-    font-size:15px;
-    display: inline;
-}
-
-.thumbnail {
-    float: left;
-    height: 90px;
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    float: left;
-    width: 90%;
-    height: 100px;
+#co{
+position:absolute;
+color:#fff;
+font-size:15px;
+top:15.1%;
+left:10%;
 }
