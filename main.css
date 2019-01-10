@@ -28,7 +28,6 @@ border-bottom: #f1f1f1 solid 4px;
 .nav-container{
   height: 40px;
   position: relative;
-  /* border: 1px solid black; */
 }
 
 .site-logo{
@@ -57,12 +56,10 @@ border-bottom: #f1f1f1 solid 4px;
 
 input {
     height: 35px;
-    width: 450px;
 }
 
-
-#menulogo{
-
+iframe {
+    border: 0;
 }
 
 #search {
@@ -74,13 +71,6 @@ main {
     vertical-align: top;
     padding: 0 100px;
 }
-
-
-/* .icon {
-    float: right;
-    right: 0;
-}
-*/
 
 .photo {
     border-radius: 50%;
@@ -107,11 +97,6 @@ main {
     margin-top: -20px;
 }
 
-/*.header>#sideicons {
-    float: right;
-    right: 0;
-}*/
-
 div#searchbar {
     display: inline;
 }
@@ -131,8 +116,8 @@ sidemenu{
 
 #play {
     position:relative;
-    height:0px;
-    width:0px;
+    height:0;
+    width:0;
     border-left:solid 10px #fff;
     border-top:solid 7px transparent;
     border-right:solid 7px transparent;
